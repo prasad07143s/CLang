@@ -16,8 +16,7 @@ void add()
  p = (struct Student *)malloc(sizeof(struct Student));
  system("cls");
  system("color E");
- printf("\n\n<=====================================> Register For 
-Internship <=====================================>\n");
+ printf("\n\n<=====================================> Register For Internship <=====================================>\n");
  printf("\n\nEnter Name Of The Student : ");
  scanf("%s", &p->name);
  printf("\n\nEnter The Age : ");
@@ -42,10 +41,7 @@ Internship <=====================================>\n");
  }
  else
  {
- fprintf(ptr, "<=======================================--> RECORD 
-<--=======================================>\n\nName : %s\nAge : 
-%d\nCGPA : %.2f\nStudent Id : %d\nTenure Of Internship : %d Months", 
-p->name, p->age, p->cgpa, p->student_id, p->tenure);
+ fprintf(ptr, "<=======================================--> RECORD <--=======================================>\n\nName : %s\nAge : %d\nCGPA : %.2f\nStudent Id : %d\nTenure Of Internship : %d Months", p->name, p->age, p->cgpa, p->student_id, p->tenure);
  printf("\n\nRegistration Successful !\n\n");
  printf("Record Successfully Saved In Your Local Computer !\n\n");
  printf("Press Any Key To Continue....");
@@ -80,19 +76,14 @@ void menu()
  system("cls");
  system("color A");
  
-printf("\n\n<===========================>MENU<========================
-===>\n\n1.Register For Internship\n\n2.View Existing Details\n\n3.Check 
-Eligibility Criteria\n\n4.Exit\n\nChoose An Option : ");
+printf("\n\n<===========================>MENU<===========================>\n\n1.Register For Internship\n\n2.View Existing Details\n\n3.Check Eligibility Criteria\n\n4.Exit\n\nChoose An Option : ");
  scanf("%d", &choice);
 }
 void elig()
 {
  system("cls");
  system("color B");
- printf("\n\n<===========================================> Eligibility 
-Requirements <===========================================>\n\n\n* You 
-Must Be Above 18 Years And Below 40 Years Of Age\n\n* Minimum CGPA Of
-8.00 is Required\n\n* You Must Be An Indian Citizen\n\n");
+ printf("\n\n<===========================================> Eligibility Requirements <===========================================>\n\n\n* You Must Be Above 18 Years And Below 40 Years Of Age\n\n* Minimum CGPA Of 8.00 is Required\n\n* You Must Be An Indian Citizen\n\n");
  printf("\n\nPress Any Key To Continue....");
  getch();
 }
@@ -135,8 +126,7 @@ Ways !\n\n");
  }
  system("cls");
  system("color f");
- printf("\n\n<+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-> Welcome To The PSD Portal 
-For Internship <+-+-+-+-+-+-+-+-+-+-+-+-+-+-+->\n\n\n");
+ printf("\n\n<+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-> Welcome To The PSD Portal For Internship <+-+-+-+-+-+-+-+-+-+-+-+-+-+-+->\n\n\n");
  printf("\nPress Any Key To Continue....");
  getch();
  while (choice != 4)
@@ -154,8 +144,7 @@ For Internship <+-+-+-+-+-+-+-+-+-+-+-+-+-+-+->\n\n\n");
  elig();
  break;
  case 4:
- printf("\n\n<--------------------------> Thank You ! 
-<-------------------------->\n\n");
+ printf("\n\n<--------------------------> Thank You ! <-------------------------->\n\n");
  exit(0);
  break;
  default:

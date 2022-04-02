@@ -98,9 +98,7 @@ int main()
  scanf("%d", &pass);
  while (pass != password)
  {
- printf("\n\nHint : It Is The Smallest Number That Can Be 
-Expressed As Sum Of Cubes Of Two Different Numbers In Two Different 
-Ways !\n\n");
+ printf("\n\nHint : It Is The Smallest Number That Can Be Expressed As Sum Of Cubes Of Two Different Numbers In Two Different Ways !\n\n");
  printf("\n\nIncorrect Password ! Press 't' to Try Again !\n\n");
  x = getch();
  if (x != 't')
